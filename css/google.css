@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow: hidden;
+    width: 1040px;
+    height: 630px;
+  }
+  body,
+  input,
+  button {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .header {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  .pic {
+    border-radius: 50%;
+  }
+  .searchBar {
+    max-width: 584px;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+  }
+  table {
+    margin: auto;
+  }
+  #searchbar {
+    height: 85%;
+    border-style: none;
+  }
+  .ortalama {
+    text-align: center;
+  }
+  .buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px 150px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  .altnav {
+    position: absolute;
+  }
+  .altnavtb {
+    width: 100vw;
+    height: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.14);
+  }
+  a {
+    text-decoration: none;
+    color: #70757a;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  #region {
+    color: #70757a;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navmenu {
+    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.14);
+  }
+  .footerspan{
+      padding-top: 2px;
+      margin-top: 3px;
+  }
+  span > a {
+      padding: 10px;
+  }
+  .btn-primary{
+      background-color: #4285F4;
+  }
+  .btn{
+      padding: 10px 20px;
+      color: white;
+  }
